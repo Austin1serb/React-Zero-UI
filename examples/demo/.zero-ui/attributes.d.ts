@@ -7,4 +7,5 @@ export declare const bodyAttributes: {
   "data-scrolled": "down" | "up";
   "data-theme": "dark" | "light";
   "data-theme-test": "dark" | "light";
+  "data-tooltip": "off";
 };

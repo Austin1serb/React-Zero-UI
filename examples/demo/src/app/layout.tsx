@@ -9,7 +9,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
 	return (
 		<html lang="en">
 			<body
-				className="flex h-full w-full items-center justify-center bg-gray-100 antialiased"
+				className="flex h-full w-full items-center justify-center bg-gray-100 antialiased dark"
 				{...bodyAttributes}>
 				<TopBarV2 />
 				{children}
