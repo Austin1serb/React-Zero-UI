@@ -23,7 +23,7 @@ export default function Page() {
 
 	return (
 		<div
-			className="p-8 theme-light:bg-white theme-dark:bg-white bg-black"
+			className="p-8 theme-light:bg-white theme-dark:bg-white bg-red-200"
 			data-testid="page-container">
 			<h1 className="text-2xl font-bold py-5">Global State</h1>
 			<hr />
@@ -141,7 +141,7 @@ export default function Page() {
 
 			<div className="border-2 border-blue-500">
 				<div
-					className="scope-off:bg-blue-100 scope-on:bg-blue-900 scope-on:text-white"
+					className="scope-off:bg-blue-100 scope-on:bg-blue-900 scope-on:text-white bg-red-200"
 					data-testid="scope-container"
 					//this ref tells the hook to flip the data key here
 					ref={setScope.ref}>

@@ -59,7 +59,10 @@ export function buildCss(variants: VariantData[]): string {
 		return [...values].sort().map((v) => {
 			const valSlug = toKebabCase(v);
 
-			return `@custom-variant ${keySlug}-${valSlug} {&:where(body[data-${keySlug}="${valSlug}"] *) { @slot; } [data-${keySlug}="${valSlug}"] &, &[data-${keySlug}="${valSlug}"] { @slot; }}`;
+			return `@custom-variant ${keySlug}-${valSlug} {
+  [data-${keySlug}="${valSlug}"] & { @slot; }
+  &[data-${keySlug}="${valSlug}"] { @slot; }
+}`;
 		});
 	});
 

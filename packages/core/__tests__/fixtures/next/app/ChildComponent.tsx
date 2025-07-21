@@ -3,7 +3,7 @@ import { type UISetterFn } from '@react-zero-ui/core';
 export function ChildComponent({ setIsOpen }: { setIsOpen: UISetterFn }) {
 	return (
 		<div
-			className="child-closed:bg-gray-100 child-open:bg-gray-900 child-open:text-white"
+			className="child-closed:bg-gray-100 child-open:bg-gray-900 child-open:text-white bg-red-200"
 			data-testid="child-container">
 			<button
 				type="button"

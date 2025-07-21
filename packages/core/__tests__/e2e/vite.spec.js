@@ -77,7 +77,7 @@ const scenarios = [
 
 test.describe.configure({ mode: 'serial' });
 
-test.describe('Zero-UI Next.js Integration Tests', () => {
+test.describe('Zero-UI Vite Integration Tests', () => {
 	test.beforeEach(async ({ page }) => {
 		await page.goto('/', { waitUntil: 'networkidle' });
 	});

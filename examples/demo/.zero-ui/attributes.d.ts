@@ -5,6 +5,6 @@ export declare const bodyAttributes: {
   "data-menu-open": "false" | "true";
   "data-mobile-menu": "closed" | "open";
   "data-scrolled": "down" | "up";
-  "data-theme": "dark" | "light" | "test-dark" | "test-light";
+  "data-theme": "dark" | "light";
   "data-theme-test": "dark" | "light";
 };

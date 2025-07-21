@@ -6,5 +6,5 @@ export const bodyAttributes = {
   "data-mobile-menu": "closed",
   "data-scrolled": "up",
   "data-theme": "light",
-  "data-theme-test": "dark"
+  "data-theme-test": "light"
 };
