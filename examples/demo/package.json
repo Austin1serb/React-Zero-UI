@@ -21,7 +21,8 @@
 		"motion": "12.18.1",
 		"next": "^15.3.5",
 		"react": "^19.0.0",
-		"react-dom": "^19.0.0"
+		"react-dom": "^19.0.0",
+		"react-scan": "^0.4.3"
 	},
 	"devDependencies": {
 		"@tailwindcss/postcss": "^4.1.10",
