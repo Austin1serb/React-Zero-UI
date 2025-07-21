@@ -1,16 +1,13 @@
-'use client';
-import { useUI } from '@react-zero-ui/core';
 import { InnerDot } from './InnerDot';
 import Link from 'next/link';
 
 export const Dashboard: React.FC = () => {
-	const [, setTheme] = useUI<'light' | 'dark'>('theme-test', 'light');
 	return (
 		<div className="theme-test-light:bg-gray-200 theme-test-light:text-gray-900 theme-test-dark:bg-gray-900 theme-test-dark:text-gray-200 flex h-screen w-screen flex-col items-center justify-start p-5">
 			<div className="flex flex-row items-center gap-2">
 				<button
 					type="button"
-					onClick={() => setTheme((prev) => (prev === 'light' ? 'dark' : 'light'))}
+					data-ui="cycle:theme-test(dark,light)"
 					className="rounded-md bg-blue-500 px-4 py-2 text-white transition-colors hover:bg-blue-600">
 					Toggle Theme (Current:{' '}
 					{

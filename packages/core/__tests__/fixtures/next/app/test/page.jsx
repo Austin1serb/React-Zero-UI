@@ -1,6 +1,6 @@
 // 'use client';
 
-// import useUI from '@react-zero-ui/core';
+// import {useUI} from '@react-zero-ui/core';
 // import UseEffectComponent from '../UseEffectComponent';
 // import FAQ from '../FAQ';
 

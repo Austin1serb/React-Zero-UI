@@ -1,13 +1,13 @@
 'use client';
 
-import useUI from '@react-zero-ui/core';
+import { useUI } from '@react-zero-ui/core';
 import { useRenderTracker } from './ReactTracker';
 
 export function TestComponentZero() {
-	const ref = useRenderTracker('TestComponent');
+	const ref = useRenderTracker('Test-component');
 	const [, setTheme] = useUI<'light' | 'dark'>('theme', 'light');
 	const [, setAccent] = useUI<'violet' | 'emerald' | 'amber'>('accent', 'violet');
-	const [, setMenuOpen] = useUI<boolean>('menuOpen', false);
+	const [, setMenuOpen] = useUI<'true' | 'false'>('menu-open', 'false');
 
 	return (
 		<div
@@ -16,7 +16,7 @@ export function TestComponentZero() {
 			<Header />
 			<ThemeSwitcher setTheme={setTheme} />
 			<AccentPicker setAccent={setAccent} />
-			<InteractiveCard toggleMenu={() => setMenuOpen((prev) => !prev)} />
+			<InteractiveCard toggleMenu={() => setMenuOpen((prev) => (prev === 'true' ? 'false' : 'true'))} />
 			<StateDisplay />
 		</div>
 	);
