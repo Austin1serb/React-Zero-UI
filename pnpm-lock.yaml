@@ -42,8 +42,8 @@ importers:
   examples/demo:
     dependencies:
       '@react-zero-ui/core':
-        specifier: ^0.2.5
-        version: 0.2.5(@tailwindcss/postcss@4.1.10)(postcss@8.5.6)(react@19.1.0)(tailwindcss@4.1.10)
+        specifier: 0.1.0
+        version: 0.1.0(@tailwindcss/postcss@4.1.10)(postcss@8.5.6)(react@19.1.0)(tailwindcss@4.1.10)
       '@vercel/analytics':
         specifier: ^1.5.0
         version: 1.5.0(next@15.3.5(@babel/core@7.28.0)(@playwright/test@1.54.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)
@@ -751,8 +751,8 @@ packages:
     peerDependencies:
       preact: 10.x
 
-  '@react-zero-ui/core@0.2.4':
-    resolution: {integrity: sha512-z61smTK7tR71ckHhksQMuRTaK0fBSzE1KUOs9nGgSUY4dVpvjiVOpelzjz4bxj7qYB4etA5hFg6wDb97TaDkYA==}
+  '@react-zero-ui/core@0.1.0':
+    resolution: {integrity: sha512-ZaFumt9DKsuubhcJHyC6j/JKhF430Q2DYKhetNfgDDYFisLhc2k9Wd+SHuSaxAJjoRmFJlW+jaGzvk0BLtvY6Q==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       '@tailwindcss/postcss': ^4.1.10
@@ -760,8 +760,8 @@ packages:
       react: '>=16.8.0'
       tailwindcss: ^4.1.10
 
-  '@react-zero-ui/core@0.2.5':
-    resolution: {integrity: sha512-CnPQb3+0JceshLPaOsUToPtvKYwRYqnXm/ilmCgOC2uWwocvaSjLOynlvU7rocL+mr45lGuBkJhluR2pFgq85w==}
+  '@react-zero-ui/core@0.2.4':
+    resolution: {integrity: sha512-z61smTK7tR71ckHhksQMuRTaK0fBSzE1KUOs9nGgSUY4dVpvjiVOpelzjz4bxj7qYB4etA5hFg6wDb97TaDkYA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       '@tailwindcss/postcss': ^4.1.10
@@ -3251,23 +3251,20 @@ snapshots:
       '@preact/signals-core': 1.11.0
       preact: 10.26.9
 
-  '@react-zero-ui/core@0.2.4(@tailwindcss/postcss@4.1.10)(postcss@8.5.6)(react@19.1.0)(tailwindcss@4.1.10)':
+  '@react-zero-ui/core@0.1.0(@tailwindcss/postcss@4.1.10)(postcss@8.5.6)(react@19.1.0)(tailwindcss@4.1.10)':
     dependencies:
-      '@babel/code-frame': 7.27.1
       '@babel/generator': 7.28.0
       '@babel/parser': 7.28.0
       '@babel/traverse': 7.28.0
       '@babel/types': 7.28.0
       '@tailwindcss/postcss': 4.1.10
-      fast-glob: 3.3.3
-      lru-cache: 11.1.0
       postcss: 8.5.6
       react: 19.1.0
       tailwindcss: 4.1.10
     transitivePeerDependencies:
       - supports-color
 
-  '@react-zero-ui/core@0.2.5(@tailwindcss/postcss@4.1.10)(postcss@8.5.6)(react@19.1.0)(tailwindcss@4.1.10)':
+  '@react-zero-ui/core@0.2.4(@tailwindcss/postcss@4.1.10)(postcss@8.5.6)(react@19.1.0)(tailwindcss@4.1.10)':
     dependencies:
       '@babel/code-frame': 7.27.1
       '@babel/generator': 7.28.0
